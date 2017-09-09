@@ -93,7 +93,7 @@ def main(startingURL, finishURL):
     #UNCOMMENT TO DEBUG 
     print("Attempting to find: " + finishURL+ " from " + startingURL)
     while not q.empty():
-        attempts++
+        attempts+= 1
         if (attempts == 1000):
             print("Scanned 1000 articles, did not find destination")
             quit()
