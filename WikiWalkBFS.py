@@ -1,6 +1,6 @@
 '''
 WalkWiki.py
-Written by Thomas Besenski
+Written by Sofia Besenski
 Sept 9th 2017
 finds the shortest path between 2 wikipedia articles specified in the cmd line args.
 an edge exists from article A to article B if there exists a hyperlink within article A that 
